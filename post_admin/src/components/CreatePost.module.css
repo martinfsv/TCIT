@@ -1,0 +1,37 @@
+.addContainer {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-between;
+  margin-bottom: 1vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+.name {
+  width: 15vw;
+  line-height: 5vh;
+  margin-right: 0.5vw;
+}
+.name > input {
+  width: 12.75vw;
+}
+
+.description {
+  width: 30vw;
+  line-height: 5vh;
+}
+.description > input {
+  width: 27vw;
+}
+
+.postData {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+}
+
+.delete {
+  width: 7.5vw;
+  background-color: #ad7a99;
+}

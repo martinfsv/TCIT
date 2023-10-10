@@ -1,0 +1,30 @@
+.searchContainer{
+  display: flex;
+  width: 50vw;
+  margin-bottom: 1vh;
+  justify-content: space-between;
+}
+
+.filter{
+  background-color: #6DC0D5;
+}
+
+.clear{
+  background-color: #AD7A99;  
+}
+
+.searchText{
+  width: 5vw;
+}
+
+.searchText>input{
+  width: 30vw;
+}
+.buttonContainer{
+  width: 12vw;
+  gap: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

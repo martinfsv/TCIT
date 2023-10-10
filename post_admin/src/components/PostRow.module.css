@@ -1,0 +1,28 @@
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-between;
+  margin-bottom: 1vh;
+}
+
+.name {
+  width: 15vw;
+  line-height: 5vh;
+}
+
+.description {
+  width: 30vw;
+  line-height: 5vh;
+}
+
+.postData {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+}
+
+.delete {
+  width: 7.5vw;
+  background-color: #ad7a99;
+}
